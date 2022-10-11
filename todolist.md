@@ -18,7 +18,16 @@
 
 6. 매일 8시에 `pull request` 승인하겠으며, 매일 수업 끝나고 8시 전까지 자율적으로 하시면 됩니다.
 
-## 그 외의 정보들
+# git flow 전략
+
+![flowimage](./flowimage.png)
+
+- 작업 전 'main' 브랜치에서 파일을 복사 합니다.
+- 개인 브런치를 생성해 개인 커밋을 업로드 합니다.(정상 작동 확인 필수)
+- 개인 커밋을 pre 브런치에 push 하고 작동을 확인합니다. 정상 작동하면 pre에서 merge 합니다.
+- merge 이후에 정상 작동한다면, main브런치에 `pull request` 하고, 에러가나면 `revert`를 합니다.
+
+# 그 외의 정보들
 
 - '2022-10-11' [실습](https://violet-bora-lee.github.io/git-tutorial/#commit)
 
