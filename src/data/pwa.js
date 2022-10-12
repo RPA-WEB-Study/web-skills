@@ -5,7 +5,7 @@ export const pwaCollection = {
 			name: "API's",
 			skills: [
 				{
-					name: "보관소",
+					name: "Storage",
 					description: {
 						text: "웹 앱에 대한 데이터 저장 방법 알아보기.",
 						links: [
@@ -19,7 +19,7 @@ export const pwaCollection = {
 					}
 				},
 				{
-					name: "절차",
+					name: "Routing",
 					description: {
 						text: "단일 페이지 응용프로그램에서 라우팅의 의미에 대해 알아봅니다.",
 						links: [
@@ -30,7 +30,7 @@ export const pwaCollection = {
 					},
 					skills: [
 						{
-							name: "응용프로그램 인터페이스 이력",
+							name: "History API",
 							description: {
 								text: "응용프로그램 인터페이스 이력을 사용하여 웹 앱에 단일 페이지 응용 프로그램을 추가하는 방법에 대해 배우십시오.",
 								links: [
@@ -47,7 +47,7 @@ export const pwaCollection = {
 					]
 				},
 				{
-					name: "서비스 워커",
+					name: "Service Workers",
 					description: {
 						text: "풍부한 현지 경험을 제공하기 위해 서비스 직원을 등록하는 방법에 대해 알아봅니다.",
 						links: [
@@ -65,7 +65,7 @@ export const pwaCollection = {
 					},
 					skills: [
 						{
-							name: "오프라인 처음",
+							name: "Offline first",
 							description: {
 								text: "오프라인 첫 번째 접근 방식으로 웹 앱을 오프라인으로 작동시키는 방법에 대해 알아보세요.",
 								links: [
@@ -83,7 +83,7 @@ export const pwaCollection = {
 							}
 						},
 						{
-							name: "푸시 알림",
+							name: "Push notifications",
 							description: {
 								text: "웹 앱에 푸시 알림을 추가하는 방법에 대해 알아봅니다.",
 								links: [
@@ -96,7 +96,7 @@ export const pwaCollection = {
 					]
 				},
 				{
-					name: "웹 앱 매니 페스트",
+					name: "Web App manifest",
 					description: {
 						text: "웹 앱 매니페스트를 만들어 브라우저에 웹 앱에 대해 알려주는 방법과 웹 앱 매니페스트를 '설치'할 때 어떻게 동작해야 하는지 알아보십시오.",
 						links: [
@@ -108,7 +108,7 @@ export const pwaCollection = {
 					}
 				},
 				{
-					name: "홈 스크린에 추가",
+					name: "Add to homescreen",
 					description: {
 						text: "웹 앱을 설치할 수 있게 만드는 방법에 대해 알아봅니다.",
 						links: [
@@ -119,7 +119,7 @@ export const pwaCollection = {
 					}
 				},
 				{
-					name: "포인터 이벤트",
+					name: "Pointer Events",
 					description: {
 						text: "마우스, 펜/스타일러스 또는 터치와 같은 포인팅 장치의 입력을 처리하는 방법에 대해 배우십시오.",
 						links: [
@@ -137,7 +137,7 @@ export const pwaCollection = {
 			name: "Loading Performance",
 			skills: [
 				{
-					name: "앱 셸",
+					name: "App shell",
 					description: {
 						text: "앱 셸을 사용하여 반복 방문 시 사용자에게 즉각적이고 안정적인 환경을 제공하는 방법 알아보기",
 						links: [
@@ -147,7 +147,7 @@ export const pwaCollection = {
 					}
 				},
 				{
-					name: "렌더링 차단 리소스",
+					name: "Render-Blocking Resources",
 					description: {
 						text: "렌더 차단 리소스와 이러한 리소스가 사용자 환경에 좋지 않은 이유에 대해 알아봅니다.",
 						links: [
@@ -157,7 +157,7 @@ export const pwaCollection = {
 					},
 				},
 				{
-					name: "압축",
+					name: "Compression",
 					description: {
 						text: "리소스를 최적화하고 압축하여 전체 다운로드 크기를 최소화하는 방법에 대해 알아보십시오.",
 						links: [
@@ -171,7 +171,7 @@ export const pwaCollection = {
 					},
 				},
 				{
-					name: "성능 메트릭",
+					name: "Performance metrics",
 					description: {
 						text: "성능을 측정하는 것이 왜 중요한지 그리고 어떤 메트릭을 우선시해야 하는지 알아보십시오.",
 						links: [
@@ -182,7 +182,7 @@ export const pwaCollection = {
 					},
 					skills: [
 						{
-							name: "가장 큰 내용물 페인트",
+							name: "Largest Contentful Paint",
 							description: {
 								text: "가장 큰 내용물 페인트와 페인트가 전체 성능에 미치는 영향에 대해 알아봅니다.",
 								links: [
@@ -193,7 +193,7 @@ export const pwaCollection = {
 							},
 						},
 						{
-							name: "총 차단 시간",
+							name: "Total Blocking Time",
 							description: {
 								text: "토탈 차단 시간에 대해 어떻게 그 전반적인 작업에 영향을 미치면서 배우시오.",
 								links: [
@@ -203,7 +203,7 @@ export const pwaCollection = {
 							},
 						},
 						{
-							name: "상호 작용 시간",
+							name: "Time to Interactive",
 							description: {
 								text: "상호 작용 시간 및 상호 작용이 전체 성능에 미치는 영향에 대해 알아보십시오.",
 								links: [
@@ -215,7 +215,7 @@ export const pwaCollection = {
 					]
 				},
 				{
-					name: "레이지 로딩",
+					name: "Lazy Loading",
 					description: {
 						text: "레이지 로딩을 사용하여 초기 페이지 페이로드 및 로드 시간을 줄이는 방법에 대해 알아봅니다.",
 						links: [
@@ -226,7 +226,7 @@ export const pwaCollection = {
 					},
 					skills: [
 						{
-							name: "동적 가져오기",
+							name: "Dynamic Import",
 							description: {
 								text: "동적 가져오기를 사용하여 javascript를 느리게 로드하는 방법에 대해 알아봅니다.",
 								links: [
@@ -238,7 +238,7 @@ export const pwaCollection = {
 							},
 						},
 						{
-							name: "오프스크린 이미지",
+							name: "Offscreen images",
 							description: {
 								text: "오프스크린 이미지가 로드 시간을 증가시키는 이유와 느린 이미지 로드를 통해 이미지를 피하는 방법에 대해 알아봅니다.",
 								links: [
@@ -252,7 +252,7 @@ export const pwaCollection = {
 					]
 				},
 				{
-					name: "중요 요청 체인",
+					name: "Critical Request Chains",
 					description: {
 						text: "중요한 요청 체인과 웹 앱에서 찾는 방법에 대해 알아봅니다.",
 						links: [
@@ -262,7 +262,7 @@ export const pwaCollection = {
 					},
 				},
 				{
-					name: "나무 흔들기",
+					name: "Tree shaking",
 					description: {
 						text: "나무 흔들기를 사용하여 데드 코드를 제거하는 방법에 대해 알아봅니다.",
 						links: [
@@ -272,7 +272,7 @@ export const pwaCollection = {
 					},
 				},
 				{
-					name: "코드 분할",
+					name: "Codesplitting",
 					description: {
 						text: "코드를 분할하는 방법과 코드를 여러 개의 청크로 분할하는 것이 웹 앱을 더 빠르게 만드는 방법에 대해 알아보세요.",
 						links: [
@@ -282,7 +282,7 @@ export const pwaCollection = {
 					},
 				},
 				{
-					name: "PRPL 패턴",
+					name: "PRPL Pattern",
 					description: {
 						text: "PRPL 패턴을 사용하여 웹 애플리케이션의 성능을 향상시키는 방법에 대해 알아 보십시오.",
 						links: [
@@ -294,7 +294,7 @@ export const pwaCollection = {
 					},
 				},
 				{
-					name: "리소스 우선 순위 지정",
+					name: "Resource Prioritization",
 					description: {
 						text: "리소스 우선 순위 지정 및 브라우저에 리소스의 중요성을 알리는 방법에 대해 알아봅니다.",
 						links: [
@@ -307,7 +307,7 @@ export const pwaCollection = {
 					},
 				},
 				{
-					name: "캐싱",
+					name: "Caching",
 					description: {
 						text: "캐싱에 대해 알아보고 캐싱을 사용하여 웹 애플리케이션을 더 빨리 로드하는 방법을 알아보십시오.",
 						links: [
