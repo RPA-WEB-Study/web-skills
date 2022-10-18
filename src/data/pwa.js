@@ -7,7 +7,7 @@ export const pwaCollection = {
 				{
 					name: "Storage",
 					description: {
-						text: "Learn how to store data for your web app.",
+						text: "웹 앱에 대한 데이터 저장 방법 알아보기.",
 						links: [
 							["MDN - Storage", "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API"],
 							["MDN - Web Storage API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"],
@@ -21,7 +21,7 @@ export const pwaCollection = {
 				{
 					name: "Routing",
 					description: {
-						text: "Learn what routing means in single page applications.",
+						text: "단일 페이지 응용프로그램에서 라우팅의 의미에 대해 알아봅니다.",
 						links: [
 							["How Single-Page Applications Work", "https://blog.pshrmn.com/how-single-page-applications-work/"],
 							["Static Apps - Routing URLs in Static Web Apps", "https://staticapps.org/articles/routing-urls-in-static-apps/"],
@@ -32,7 +32,7 @@ export const pwaCollection = {
 						{
 							name: "History API",
 							description: {
-								text: "Learn how to use the history API to add single page applicaiton routing to your web app.",
+								text: "응용프로그램 인터페이스 이력을 사용하여 웹 앱에 단일 페이지 응용 프로그램을 추가하는 방법에 대해 배우십시오.",
 								links: [
 									["MDN - Working with the History API", "https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API"],
 									["MDN - History API", "https://developer.mozilla.org/en-US/docs/Web/API/History_API"],
@@ -49,7 +49,7 @@ export const pwaCollection = {
 				{
 					name: "Service Workers",
 					description: {
-						text: "Learn how to register a service worker to provide a rich native-like experience.",
+						text: "풍부한 현지 경험을 제공하기 위해 서비스 직원을 등록하는 방법에 대해 알아봅니다.",
 						links: [
 							["Google Devs - Service Workers: an Introduction", "https://developers.google.com/web/fundamentals/primers/service-workers"],
 							["Google Devs - The Service Worker Lifecycle", "https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle"],
@@ -67,7 +67,7 @@ export const pwaCollection = {
 						{
 							name: "Offline first",
 							description: {
-								text: "Learn how to make your web app working offline with an offline first approach.",
+								text: "오프라인 첫 번째 접근 방식으로 웹 앱을 오프라인으로 작동시키는 방법에 대해 알아보세요.",
 								links: [
 									["Google Devs - The Offline Cookbook", "https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook"],
 									["Udacity - Offline Web Applications", "https://www.udacity.com/course/offline-web-applications--ud899"],
@@ -85,7 +85,7 @@ export const pwaCollection = {
 						{
 							name: "Push notifications",
 							description: {
-								text: "Learn how to add push notifications to your web app.",
+								text: "웹 앱에 푸시 알림을 추가하는 방법에 대해 알아봅니다.",
 								links: [
 									["Google Devs - Adding Push Notifications to a Web App", "https://developers.google.com/web/fundamentals/codelabs/push-notifications/"],
 									["MDN - How to make PWAs re-engageable", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Re-engageable_Notifications_Push"],
@@ -98,7 +98,7 @@ export const pwaCollection = {
 				{
 					name: "Web App manifest",
 					description: {
-						text: "Learn how to tell the browser about your web app and how it should behave when 'installed' by creating a web app manifest.",
+						text: "웹 앱 매니페스트를 만들어 브라우저에 웹 앱에 대해 알려주는 방법과 웹 앱 매니페스트를 '설치'할 때 어떻게 동작해야 하는지 알아보십시오.",
 						links: [
 							["Google Devs - Web App Manifest", "https://developers.google.com/web/fundamentals/web-app-manifest/"],
 							["web.dev - Add a web app manifest", "https://web.dev/add-manifest/"],
@@ -110,7 +110,7 @@ export const pwaCollection = {
 				{
 					name: "Add to homescreen",
 					description: {
-						text: "Learn how to make your web app installable.",
+						text: "웹 앱을 설치할 수 있게 만드는 방법에 대해 알아봅니다.",
 						links: [
 							["web.dev - Installable", "https://web.dev/installable"],
 							["Google Devs - App Install Banners", "https://developers.google.com/web/fundamentals/app-install-banners/"],
@@ -121,7 +121,7 @@ export const pwaCollection = {
 				{
 					name: "Pointer Events",
 					description: {
-						text: "Learn how to handle inputs from pointing devices such as a mouse, pen/stylus or touch.",
+						text: "마우스, 펜/스타일러스 또는 터치와 같은 포인팅 장치의 입력을 처리하는 방법에 대해 배우십시오.",
 						links: [
 							["MDN - Pointer Events", "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"],
 							["Google Devs - Add Touch to Your Site", "https://developers.google.com/web/fundamentals/design-and-ux/input/touch"],
@@ -139,7 +139,7 @@ export const pwaCollection = {
 				{
 					name: "App shell",
 					description: {
-						text: "Learn how to use an app shell to provide an instant and reliable experience to users on repeat visits",
+						text: "앱 셸을 사용하여 반복 방문 시 사용자에게 즉각적이고 안정적인 환경을 제공하는 방법 알아보기",
 						links: [
 							["Google Devs - The App Shell Model", "https://developers.google.com/web/fundamentals/architecture/app-shell"],
 							["MDN - Architecture of an app", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/App_structure"]
@@ -149,7 +149,7 @@ export const pwaCollection = {
 				{
 					name: "Render-Blocking Resources",
 					description: {
-						text: "Learn about render-blocking resources and why they are bad for the user-experience.",
+						text: "렌더 차단 리소스와 이러한 리소스가 사용자 환경에 좋지 않은 이유에 대해 알아봅니다.",
 						links: [
 							["MDN - Render-blocking resources", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading#Render-blocking_resources"],
 							["Google Devs - Render-Blocking Resources", "https://developers.google.com/web/tools/lighthouse/audits/blocking-resources"]
@@ -159,7 +159,7 @@ export const pwaCollection = {
 				{
 					name: "Compression",
 					description: {
-						text: "Learn how to minimize the overall download size by optimizing and compressing resources.",
+						text: "리소스를 최적화하고 압축하여 전체 다운로드 크기를 최소화하는 방법에 대해 알아보십시오.",
 						links: [
 							["Google Devs - Optimizing Encoding and Transfer Size", "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer"],
 							["Google Devs - Replace Animated GIFs with Video", "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/"],
@@ -173,7 +173,7 @@ export const pwaCollection = {
 				{
 					name: "Performance metrics",
 					description: {
-						text: "Learn why it is important to measure performance and which metrics you should prioritize.",
+						text: "성능을 측정하는 것이 왜 중요한지 그리고 어떤 메트릭을 우선시해야 하는지 알아보십시오.",
 						links: [
 							["Google Devs - User-centric Performance Metrics", "https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics"],
 							["Udacity - Website Performance Optimization", "https://www.udacity.com/course/website-performance-optimization--ud884"],
@@ -184,7 +184,7 @@ export const pwaCollection = {
 						{
 							name: "Largest Contentful Paint",
 							description: {
-								text: "Learn about Largest Contentful Paint and how it impacts the overall performance.",
+								text: "가장 큰 내용물 페인트와 페인트가 전체 성능에 미치는 영향에 대해 알아봅니다.",
 								links: [
 									["web.dev - Largest Contentful Paint", "https://web.dev/lcp/"],
 									["web.dev - Lighthouse Largest Contentful Paint", "https://web.dev/lighthouse-largest-contentful-paint"],
@@ -195,7 +195,7 @@ export const pwaCollection = {
 						{
 							name: "Total Blocking Time",
 							description: {
-								text: "Learn about Total Blocking Time and how it impacts the overall performance.",
+								text: "토탈 차단 시간에 대해 어떻게 그 전반적인 작업에 영향을 미치면서 배우시오.",
 								links: [
 									["web.dev - First CPU Idle", "https://web.dev/first-cpu-idle"],
 									["Google Devs - Total Blocking Time", "https://web.dev/tbt"],
@@ -205,7 +205,7 @@ export const pwaCollection = {
 						{
 							name: "Time to Interactive",
 							description: {
-								text: "Learn about Time to Interactive and how it impacts the overall performance.",
+								text: "상호 작용 시간 및 상호 작용이 전체 성능에 미치는 영향에 대해 알아보십시오.",
 								links: [
 									["web.dev - Total Blocking Time", "https://web.dev/lighthouse-total-blocking-time/"],
 									["Google Devs - Time to Interactive", "https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive"],
@@ -217,7 +217,7 @@ export const pwaCollection = {
 				{
 					name: "Lazy Loading",
 					description: {
-						text: "Learn how to use lazy loading to lower the initial page payload and load time.",
+						text: "레이지 로딩을 사용하여 초기 페이지 페이로드 및 로드 시간을 줄이는 방법에 대해 알아봅니다.",
 						links: [
 							["Google Devs - Lazy Loading Images and Video", "https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video"],
 							["Addy Osmani - Lazy Loading Images", "https://addyosmani.com/blog/lazy-loading/"],
@@ -228,7 +228,7 @@ export const pwaCollection = {
 						{
 							name: "Dynamic Import",
 							description: {
-								text: "Learn how to use dynamic import to lazy load javascript.",
+								text: "동적 가져오기를 사용하여 javascript를 느리게 로드하는 방법에 대해 알아봅니다.",
 								links: [
 									["V8 - Dynamic import()", "https://v8.dev/features/dynamic-import"],
 									["JavaScript dynamic import() & export", "https://medium.com/@WebReflection/javascript-dynamic-import-export-b0e8775a59d4"],
@@ -240,7 +240,7 @@ export const pwaCollection = {
 						{
 							name: "Offscreen images",
 							description: {
-								text: "Learn why offscreen images increase the load time and how to avoid them by lazy loading images.",
+								text: "오프스크린 이미지가 로드 시간을 증가시키는 이유와 느린 이미지 로드를 통해 이미지를 피하는 방법에 대해 알아봅니다.",
 								links: [
 									["web.dev - Defer offscreen images", "https://web.dev/offscreen-images/"],
 									["Google Devs - Properly Size Images", "https://developers.google.com/web/tools/lighthouse/audits/oversized-images"],
@@ -254,7 +254,7 @@ export const pwaCollection = {
 				{
 					name: "Critical Request Chains",
 					description: {
-						text: "Learn about the critical request chains and how to find them in your web app.",
+						text: "중요한 요청 체인과 웹 앱에서 찾는 방법에 대해 알아봅니다.",
 						links: [
 							["Google Devs - Critical Request Chains", "https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains"],
 							["web.dev - Minimize critical requests depth", "https://web.dev/critical-request-chains"]
@@ -264,7 +264,7 @@ export const pwaCollection = {
 				{
 					name: "Tree shaking",
 					description: {
-						text: "Learn how to use tree shaking to eliminate dead code.",
+						text: "나무 흔들기를 사용하여 데드 코드를 제거하는 방법에 대해 알아봅니다.",
 						links: [
 							["Google Devs - Reduce JavaScript Payloads", "https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking"],
 							["How to Clean Up Your JavaScript", "https://www.keycdn.com/blog/tree-shaking"],
@@ -274,7 +274,7 @@ export const pwaCollection = {
 				{
 					name: "Codesplitting",
 					description: {
-						text: "Learn about codesplitting an how dividing your code into multiple chunks makes your web app faster.",
+						text: "코드를 분할하는 방법과 코드를 여러 개의 청크로 분할하는 것이 웹 앱을 더 빠르게 만드는 방법에 대해 알아보세요.",
 						links: [
 							["Google Devs - Reduce JavaScript Payloads", "https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting"],
 							["All you need to know about JavaScript code splitting", "https://www.creativebloq.com/how-to/all-you-need-to-know-about-javascript-code-splitting"]
@@ -284,7 +284,7 @@ export const pwaCollection = {
 				{
 					name: "PRPL Pattern",
 					description: {
-						text: "Learn how to use the PRPL pattern to make web apps more performant.",
+						text: "PRPL 패턴을 사용하여 웹 애플리케이션의 성능을 향상시키는 방법에 대해 알아 보십시오.",
 						links: [
 							["Google Devs - The PRPL Pattern", "https://developers.google.com/web/fundamentals/performance/prpl-pattern/"],
 							["Google Devs - JavaScript Start-up Optimization", "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/javascript-startup-optimization"],
@@ -296,7 +296,7 @@ export const pwaCollection = {
 				{
 					name: "Resource Prioritization",
 					description: {
-						text: "Learn about resource prioritization and how to inform the browser about the importance of a resource.",
+						text: "리소스 우선 순위 지정 및 브라우저에 리소스의 중요성을 알리는 방법에 대해 알아봅니다.",
 						links: [
 							["Google Devs - Resource Prioritization", "https://developers.google.com/web/fundamentals/performance/resource-prioritization"],
 							["Eliminating Roundtrips with Preconnect", "https://www.igvita.com/2015/08/17/eliminating-roundtrips-with-preconnect/"],
@@ -309,7 +309,7 @@ export const pwaCollection = {
 				{
 					name: "Caching",
 					description: {
-						text: "Learn about caching and how it can be uses to make web apps load faster.",
+						text: "캐싱에 대해 알아보고 캐싱을 사용하여 웹 애플리케이션을 더 빨리 로드하는 방법을 알아보십시오.",
 						links: [
 							["Google Devs - HTTP Caching", "https://developers.google.com/web/fundamentals/performance/get-started/httpcaching-6"],
 							["MDN - HTTP caching", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching"]
