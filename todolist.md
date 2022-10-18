@@ -52,7 +52,7 @@
 
 - 이슈 생성 시 '1fundamental_HTML'처럼 생성할 것
 - 완료한 이슈는 스스로 닫아줄 것
-- 풀 리퀘스트 시 '1fundamental_HTML번역완료' 작성하고 설명에 어디를 수정했다고 명시할 것(vscode에서 컨트롤f 로 남이 찾아볼 수 있게 or vscode )
+- 풀 리퀘스트 시 '1fundamental_HTML번역완료' 작성하고 설명에 어디를 수정했다고 명시할 것
 - 풀 리퀘스트 설명에 vscode에서 `컨트롤 + f` 로 남이 찾아볼 수 있게 or vscode에서 왼쪽 줄 번호 명시 할 것(ex.122 ~ 140)
 - 풀 리퀘스트 거절 사유 발생 시 제목은 위와 동일하게 작성하고 마지막에 'reject'추가 ex) '1fundamental_HTML(reject)'
 
