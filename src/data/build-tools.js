@@ -6,7 +6,7 @@ export const buildtoolsCollection = {
 				{
 					name: "Package Managers",
 					description: {
-						text: "Learn about package managers and how they make managing dependencies easier.",
+						text: "패키지 관리자에 대해 알아보고 종속성을 보다 쉽게 관리하는 방법에 대해 알아보십시오.",
 						links: [
 							["Freecodecamp - How JavaScript package managers work", "https://www.freecodecamp.org/news/javascript-package-managers-101-9afd926add0a/"],
 							["Guide to JavaScript frontend package managers", "https://www.javascriptstuff.com/javascript-frontend-package-managers/"],
