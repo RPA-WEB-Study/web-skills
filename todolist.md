@@ -6,17 +6,33 @@
 
 ## 업무 순서는 다음과 같습니다.
 
-1. `People` 창에 들어가서 개인 상태를 `private` > `public` 으로 전환하기 (최초 1회만)
+1. 본인 web-skilss 파일 위치로 이동한다.
 
-2. 본인 이름(성은 제외)으로 branch 개설하기 (최초 1회만)
+2. `git pull origin main`으로 원격 저장소의 main을 가져온다.
 
-3. 본인 branch 에서 작업 후 'push' 하기, `git push origin main` 절대 금지
+3. `git branch 본인이름` 본인 이름(성 제외) 영어로 브랜치를 생성한다
 
-4. 'pre' branch에 merge 후 정상작동 확인하기
+4. `git checkout 본인이름`으로 본인 브랜치로 이동
 
-5. 정상 작동이 확인되면 'main' 에 `pull request`하기
+5. ./src/data/수정 할 파일 으로 이동 후 'name', 'text'에 해당하는 부분 번역(파파고 사용)후 저장
 
-6. 매일 8시에 `pull request` 승인하겠으며, 매일 수업 끝나고 8시 전까지 자율적으로 하시면 됩니다.
+6. `git add ./src/data/수정파일이름.js`로 스테이징 영역으로 이동
+
+7. `git commit -m "커밋내용입력"` 커밋 입력
+
+8. `git push origin 본인이름`으로 본인 브랜치에 업로드
+
+9. `git checkout pre`으로 pre로 이동
+
+10. `git merge 본인이름브랜치`로 pre에 병합
+
+11. `git push origin pre`로 원격 저장소에 푸쉬
+
+12. github 에서 'Compare & pull request' 클릭
+
+13. 'main < pre' 설정 후 리퀘스트 남기기
+
+14. 매일 8시에 `pull request` 승인하겠으며, 매일 수업 끝나고 8시 전까지 자율적으로 하시면 됩니다. 8시 이후 리퀘스트 금지
 
 # git flow 전략
 
