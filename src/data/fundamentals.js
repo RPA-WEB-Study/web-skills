@@ -18,7 +18,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Basic Tags",
 							description: {
-								text: "기본 HTML 태그에 익숙해지기",
+								text: "기본 HTML 태그에 익숙해지시오.",
 								links: [
 									["MDN - HTML elements reference", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"],
 									["Tutorialspoint - Basic HTML tags", "https://www.tutorialspoint.com/html/html_basic_tags.htm"],
@@ -32,7 +32,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Forms",
 					description: {
-						text: "효율적인 양식을 설계하고 효과적으로 검증하며 사용자에게 정보를 제공하는 방법을 알아보십시오.",
+						text: "효율적인 양식을 설계하고, 양식을 효과적으로 검증하며, 사용자에게 계속 정보를 제공하는 방법에 대해 알아보십시오.",
 						links: [
 							["MDN - HTML forms", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"],
 							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"],
