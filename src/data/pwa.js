@@ -7,7 +7,7 @@ export const pwaCollection = {
 				{
 					name: "Storage",
 					description: {
-						text: "Learn how to store data for your web app.",
+						text: "웹 앱에 대한 데이터 저장 방법 알아보기.",
 						links: [
 							["MDN - Storage", "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API"],
 							["MDN - Web Storage API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"],
