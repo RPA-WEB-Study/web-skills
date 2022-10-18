@@ -25,19 +25,17 @@
 
 7. `git commit -m "커밋내용입력"` 커밋 입력
 
-8. `git push origin 본인이름`으로 본인 브랜치에 업로드
+8. `git checkout pre`으로 pre로 이동
 
-9. `git checkout pre`으로 pre로 이동
+9. `git merge 본인이름브랜치`로 pre에 병합
 
-10. `git merge 본인이름브랜치`로 pre에 병합
+10. `git push origin pre`로 원격 저장소에 푸쉬
 
-11. `git push origin pre`로 원격 저장소에 푸쉬
+11. github 에서 'Compare & pull request' 클릭
 
-12. github 에서 'Compare & pull request' 클릭
+12. 'main < pre' 설정 후 리퀘스트 남기기
 
-13. 'main < pre' 설정 후 리퀘스트 남기기
-
-14. 매일 8시에 `pull request` 승인하겠으며, 매일 수업 끝나고 8시 전까지 자율적으로 하시면 됩니다. 8시 이후 리퀘스트 금지
+13. 매일 8시에 `pull request` 승인하겠으며, 매일 수업 끝나고 8시 전까지 자율적으로 하시면 됩니다. 8시 이후 리퀘스트 금지
 
 # git flow 전략
 
