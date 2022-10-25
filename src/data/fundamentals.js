@@ -7,7 +7,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Syntax",
 					description: {
-						text: "Learn the basics of HTML and get comfortable with it's syntax and main concepts.",
+						text: "HTML의 기본을 배우고 구문과 주요 개념을 숙지하십시오.",
 						links: [
 							["MDN - HTML Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"],
 							["MDN - Introduction to HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"],
@@ -18,7 +18,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Basic Tags",
 							description: {
-								text: "Get familiar with the basic HTML tags",
+								text: "기본 HTML 태그에 익숙해지십시오.",
 								links: [
 									["MDN - HTML elements reference", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"],
 									["Tutorialspoint - Basic HTML tags", "https://www.tutorialspoint.com/html/html_basic_tags.htm"],
@@ -32,7 +32,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Forms",
 					description: {
-						text: "Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.",
+						text: "효율적인 폼을 설계하고, 폼을 효과적으로 검증하며, 사용자에게 정보를 지속적으로 제공하는 방법에 대해 알아보십시오.",
 						links: [
 							["MDN - HTML forms", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"],
 							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"],
@@ -43,7 +43,7 @@ export const fundamentalsCollection = {
 				{
 					name: "SEO",
 					description: {
-						text: "Learn how to make your content search-friendly.",
+						text: "콘텐츠를 검색하기 쉽게 만드는 방법에 대해 알아봅니다.",
 						links: [
 							["web.dev - Discoverable", "https://web.dev/discoverable"],
 							["Google Search - Get Started", "https://developers.google.com/search/docs/guides/get-started"],
@@ -55,7 +55,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Discoverable Content",
 							description: {
-								text: "Learn how to structure your HTML in a way that provides a rich experience when sharing it online.",
+								text: "HTML을 온라인으로 공유할 때 풍부한 경험을 제공하는 방식으로 구조화하는 방법에 대해 배우십시오.",
 								links: [
 									["Google Web - Social Discovery", "https://developers.google.com/web/fundamentals/discovery/social-discovery"],
 									["Google Search - Search Features", "https://developers.google.com/search/docs/guides/search-features"],
@@ -69,7 +69,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Svg",
 					description: {
-						text: "Learn how to work with SVG files to make graphics look crisp across all screen resolutions.",
+						text: "SVG 파일을 사용하여 모든 화면 해상도에서 그래픽이 선명하게 보이도록 하는 방법에 대해 알아 보십시오.",
 						links: [
 							["MDN - Adding vector graphics to the Web", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web"],
 							["SVG on the web", "https://svgontheweb.com/"],
@@ -79,7 +79,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Best Practices",
 					description: {
-						text: "Learn the best practices of writing HTML.",
+						text: "HTML 작성의 모범 사례에 대해 알아보십시오.",
 						links: [
 							["MDN - HTML guidelines", "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML"],
 							["W3Schools - HTML Coding Conventions", "https://www.w3schools.com/html/html5_syntax.asp"]
@@ -94,7 +94,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Syntax",
 					description: {
-						text: "Learn the basics of CSS and get comfortable with it's syntax and main concepts.",
+						text: "CSS의 기본을 배우고 구문과 주요 개념에 익숙해지십시오.",
 						links: [
 							["MDN - CSS Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"],
 							["W3Schools - CSS Tutorial", "https://www.w3schools.com/css/default.asp"],
@@ -109,7 +109,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Selectors",
 					description: {
-						text: "Learn about CSS selectors and how to effeciently target DOM elements.",
+						text: "CSS 선택기와 DOM 요소를 효과적으로 타겟팅하는 방법에 대해 알아보시오.",
 						links: [
 							["MDN - CSS selectors", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors"],
 							["MDN - All selectors", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"],
@@ -122,7 +122,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Specificity",
 							description: {
-								text: "Learn what specificity means and how to use it when writing CSS.",
+								text: "CSS를 작성할 때 구체성이 무엇을 의미하고 어떻게 사용하는지 알아보시오.",
 								links: [
 									["MDN - Specificity", "https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity"],
 									["MDN - Cascade and inheritance", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance"],
@@ -135,7 +135,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Pseudo Selectors",
 							description: {
-								text: "Learn how to use pseudo selectors.",
+								text: "가상 선택자 사용 방법에 대해 알아보시오.",
 								links: [
 									["MDN - Pseudo-classes", "https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"],
 									["CSS Tricks - Meet the Pseudo Class Selectors", "https://css-tricks.com/pseudo-class-selectors/"],
@@ -150,7 +150,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Box Model",
 					description: {
-						text: "Learn what the CSS box model means.",
+						text: "CSS 박스 모델이 무엇을 의미하는지 알아보시오.",
 						links: [
 							["MDN - Introduction to the CSS basic box model", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"],
 							["MDN - The box model", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model"],
@@ -161,7 +161,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Margin Collapsing",
 							description: {
-								text: "Learn about margin collapsing.",
+								text: "마진 상쇄에 대해 알아보시오",
 								links: [
 									["MDN - Mastering margin collapsing", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing"],
 									["Margin Collapse in CSS: What, Why, and How", "https://medium.com/@joseph0crick/margin-collapse-in-css-what-why-and-how-328c10e37ca0"],
@@ -187,7 +187,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Colors",
 					description: {
-						text: "Learn the different ways you can define colors in CSS.",
+						text: "CSS에서 색상을 정의할 수 있는 다양한 방법을 알아보시오.",
 						links: [
 							["MDN - Color", "https://developer.mozilla.org/en-US/docs/Web/CSS/color"],
 							["MDN - <color>", "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value"],
@@ -198,7 +198,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Calc",
 					description: {
-						text: "Learn how to use the CSS calc function.",
+						text: "CSS 계산 함수를 사용하는 방법을 배웁니다.",
 						links: [
 							["MDN - Calc", "https://developer.mozilla.org/en-US/docs/Web/CSS/calc"],
 							["CSS Tricks - A Couple of Use Cases for Calc()", "https://css-tricks.com/a-couple-of-use-cases-for-calc/"],
@@ -208,7 +208,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Layout",
 					description: {
-						text: "Learn the different layout types for web.",
+						text: "웹에 대한 다양한 레이아웃 유형에 대해 알아보시오.",
 						links: [
 							["Chrome Dev - Basic Layout", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/basic-layout"],
 							["W3Schools - CSS Website Layout", "https://www.w3schools.com/css/css_website_layout.asp"],
@@ -220,7 +220,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Flex",
 							description: {
-								text: "Learn how to create layouts using flexbox.",
+								text: "플렉스박스를 사용하여 레이아웃을 만드는 방법에 대해 알아보시오.",
 								links: [
 									["MDN - Flexbox", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox"],
 									["A Complete Guide to Flexbox", "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"],
@@ -233,7 +233,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Grid",
 							description: {
-								text: "Learn how to create layouts using CSS Grid.",
+								text: "CSS 그리드를 사용하여 레이아웃을 만드는 방법을 배웁니다.",
 								links: [
 									["MDN - Grids", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids"],
 									["A Complete Guide to CSS Grid", "https://css-tricks.com/snippets/css/complete-guide-grid/"],
@@ -248,7 +248,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Transforms",
 					description: {
-						text: "Learn the different ways to transform elements through CSS.",
+						text: "CSS를 통해 요소를 변환하는 다양한 방법을 배우십시오.",
 						links: [
 							["MDN - transform", "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"],
 							["CSS Tricks - Transform", "https://css-tricks.com/almanac/properties/t/transform/"],
@@ -258,7 +258,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Animations",
 							description: {
-								text: "Learn how to animate elements through CSS using keyframes.",
+								text: "키 프레임을 사용하여 CSS를 통해 요소를 애니메이션화하는 방법을 배웁니다.",
 								links: [
 									["MDN - Using CSS animations", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"],
 									["CSS Tricks - Animation", "https://css-tricks.com/almanac/properties/a/animation/"],
@@ -270,7 +270,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Responsive Design",
 					description: {
-						text: "Learn how to make your website responsive so it works across different screen sizes.",
+						text: "다양한 화면 크기에 걸쳐 작동하도록 웹 사이트의 반응성을 높이는 방법에 대해 알아보시오.",
 						links: [
 							["MDN - Responsive design", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"],
 							["Responsive Web Design Fundamentals by Google", "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"],
@@ -284,7 +284,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Media Queries",
 							description: {
-								text: "Learn how use media queries to build responsive layout.",
+								text: "미디어 쿼리를 사용하여 반응형 레이아웃을 구축하는 방법에 대해 알아보시오.",
 								links: [
 									["CSS Tricks - CSS Media Queries & Using Available Space", "https://css-tricks.com/css-media-queries/"],
 									["MDN - Using media queries", "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries"],
@@ -295,7 +295,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Relative Units",
 							description: {
-								text: "Learn how to use relative units for properties such as font sizes and spacing.",
+								text: "글꼴 크기 및 간격과 같은 속성에 상대 단위를 사용하는 방법에 대해 알아보시오.",
 								links: [
 									["MDN - Sizing items in CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS"],
 									["MDN - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
@@ -308,7 +308,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Images",
 							description: {
-								text: "Learn how to make images responsive, always showing the best possible version for the screen size.",
+								text: "항상 화면 크기에 가장 적합한 버전을 표시하면서 이미지의 반응성을 높이는 방법에 대해 알아보시오.",
 								links: [
 									["Google Devs - Responsive Images", "https://developers.google.com/web/fundamentals/design-and-ux/responsive/images"],
 									["MDN - Responsive Images", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"],
@@ -320,7 +320,7 @@ export const fundamentalsCollection = {
 				{
 					name: "CSS Variables",
 					description: {
-						text: "Learn how to define and use CSS variables.",
+						text: "CSS 변수를 정의하고 사용하는 방법을 배우시오.",
 						links: [
 							["MDN - Using CSS custom properties", "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties"],
 							["Google Devs - CSS Variables: Why Should You Care?", "https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care"],
@@ -332,7 +332,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Best Practices",
 					description: {
-						text: "Learn the best practices of writing CSS.",
+						text: "CSS 작성의 모범 사례를 배우시오.",
 						links: [
 							["MDN - CSS guidelines", "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/CSS"],
 							["MDN - Organizing your CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing"],
@@ -684,10 +684,10 @@ export const fundamentalsCollection = {
 					description: {
 						text: "Learn what a browser engine is and get an overview of the browser landscape and market share.",
 						links: [
-								["Medium - Browser Engines", "https://medium.com/@jonbiro/browser-engines-chromium-v8-blink-gecko-webkit-98d6b0490968"],
-								["Wikipedia - Comparison", "https://en.wikipedia.org/wiki/Comparison_of_browser_engines"],
-								["HTML5 Rocks - How Browsers Work", "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"],
-								["Demystifying Browsers", "https://textslashplain.com/2020/02/09/demystifying-browsers/"],
+							["Medium - Browser Engines", "https://medium.com/@jonbiro/browser-engines-chromium-v8-blink-gecko-webkit-98d6b0490968"],
+							["Wikipedia - Comparison", "https://en.wikipedia.org/wiki/Comparison_of_browser_engines"],
+							["HTML5 Rocks - How Browsers Work", "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"],
+							["Demystifying Browsers", "https://textslashplain.com/2020/02/09/demystifying-browsers/"],
 						]
 					},
 					skills: [
