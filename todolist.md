@@ -5,6 +5,7 @@
 # 업무 분배
 
 - index.html을 실행하여 "1부터4번"은 제가 하며 "5부터8번"은 "재환"님이, "9~12번"은 "재호"님이 번역합니다.
+
 - 태정님 : fundamentals.js, accessibility.js, web-components.js, pwa.js
 - 재환님 : build-tools.js, frameworks-and-libraries.js, testing.js, architecture-and-paradigmes.js
 - 재호님 : team-collaboration.js, design-and-ux.js, modern.js, algorithms.js
@@ -25,33 +26,40 @@
 
 7. `git commit -m "커밋내용입력"` 커밋 입력
 
-8. `git checkout pre`으로 pre로 이동
+8. 본인 브랜치 확인 후 본은 브랜츠로 `push` 함
 
-9. `git merge 본인이름브랜치`로 pre에 병합
+8. 'github'홈에서 본인 브랜치를 'pre' 브랜치로 `pull request`
 
-10. `git push origin pre`로 원격 저장소에 푸쉬
+9. 정상 작동 확인 후 스스로 'pre'에 `merge`
 
-11. github 에서 'Compare & pull request' 클릭
+10. 'pre'에 `merge`했다면, 'main'에 `pull request`
 
-12. 'main < pre' 설정 후 리퀘스트 남기기
+11. 매일 8시에 `pull request` 승인하겠으며, 톡방에 요청 올리면 수시로 승인하겠음
 
-13. 매일 8시에 `pull request` 승인하겠으며, 매일 수업 끝나고 8시 전까지 자율적으로 하시면 됩니다. 8시 이후 리퀘스트 금지
+12. `pull request`가 완료되면 본인이 생성한 이슈는 본인이 'close'
 
 # git flow 전략
 
 ![flowimage](./flow.png)
 
-- 작업 전 'main'브랜치에서 파일을 개인 브랜치로 `clone` 합니다.
-- 개인 브랜치를 생성해 개인 커밋을 업로드 합니다.(정상 작동 확인 필수)
+- 로컬에 개인 브랜치를 생성해 개인 커밋을 온라인 개인 브랜치 업로드 합니다.(정상 작동 확인 필수)
+
 - 개인 커밋을 'pre'브랜치에 `push` 하고 작동을 확인합니다. 정상 작동하면 'pre'에서 `merge` 합니다.
-- `merge` 이후에 정상 작동한다면, 'main'브랜치에 `pull request` 하고, 에러가나면 `revert`를 합니다.
+
+- `merge` 이후에 정상 작동한다면, 'main'브랜치에 `pull request` 하고, 에러가나면 `git reset`후 수정 합니다.
+
+- 최종 권한자가 'main' 브랜치의 `pull request`승인 권한을 갖고, 정해진 시간에 승인합니다.
 
 # 'issue' and 'pull request' rule
 
 - 이슈 생성 시 '1fundamental_HTML'처럼 생성할 것
-- 완료한 이슈는 스스로 닫아줄 것
-- 풀 리퀘스트 시 '1fundamental_HTML번역완료' 작성하고 설명에 어디를 수정했다고 명시할 것
+
+- 'main' 브랜치에 `merge` 된 후 관련 본인이 생성한 이슈는 스스로 닫아줄 것
+
+- 풀 리퀘스트 시 '1fundamental_HTML번역완료(#이슈번호)' 작성하고 설명에 어디를 수정했다고 명시할 것
+
 - 풀 리퀘스트 설명에 vscode에서 `컨트롤 + f` 로 남이 찾아볼 수 있게 or vscode에서 왼쪽 줄 번호 명시 할 것(ex.122 ~ 140)
+
 - 풀 리퀘스트 거절 사유 발생 시 제목은 위와 동일하게 작성하고 마지막에 'reject'추가 ex) '1fundamental_HTML(reject)'
 
 # 그 외의 정보들
