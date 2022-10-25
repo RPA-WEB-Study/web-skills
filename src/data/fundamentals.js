@@ -7,7 +7,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Syntax",
 					description: {
-						text: "Learn the basics of HTML and get comfortable with it's syntax and main concepts.",
+						text: "HTML의 기본을 배우고 구문과 주요 개념을 숙지하십시오.",
 						links: [
 							["MDN - HTML Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"],
 							["MDN - Introduction to HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"],
@@ -18,7 +18,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Basic Tags",
 							description: {
-								text: "Get familiar with the basic HTML tags",
+								text: "기본 HTML 태그에 익숙해지십시오.",
 								links: [
 									["MDN - HTML elements reference", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"],
 									["Tutorialspoint - Basic HTML tags", "https://www.tutorialspoint.com/html/html_basic_tags.htm"],
@@ -32,7 +32,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Forms",
 					description: {
-						text: "Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.",
+						text: "효율적인 폼을 설계하고, 폼을 효과적으로 검증하며, 사용자에게 정보를 지속적으로 제공하는 방법에 대해 알아보십시오.",
 						links: [
 							["MDN - HTML forms", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"],
 							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"],
@@ -43,7 +43,7 @@ export const fundamentalsCollection = {
 				{
 					name: "SEO",
 					description: {
-						text: "Learn how to make your content search-friendly.",
+						text: "콘텐츠를 검색하기 쉽게 만드는 방법에 대해 알아봅니다.",
 						links: [
 							["web.dev - Discoverable", "https://web.dev/discoverable"],
 							["Google Search - Get Started", "https://developers.google.com/search/docs/guides/get-started"],
@@ -55,7 +55,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Discoverable Content",
 							description: {
-								text: "Learn how to structure your HTML in a way that provides a rich experience when sharing it online.",
+								text: "HTML을 온라인으로 공유할 때 풍부한 경험을 제공하는 방식으로 구조화하는 방법에 대해 배우십시오.",
 								links: [
 									["Google Web - Social Discovery", "https://developers.google.com/web/fundamentals/discovery/social-discovery"],
 									["Google Search - Search Features", "https://developers.google.com/search/docs/guides/search-features"],
@@ -69,7 +69,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Svg",
 					description: {
-						text: "Learn how to work with SVG files to make graphics look crisp across all screen resolutions.",
+						text: "SVG 파일을 사용하여 모든 화면 해상도에서 그래픽이 선명하게 보이도록 하는 방법에 대해 알아 보십시오.",
 						links: [
 							["MDN - Adding vector graphics to the Web", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web"],
 							["SVG on the web", "https://svgontheweb.com/"],
@@ -79,7 +79,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Best Practices",
 					description: {
-						text: "Learn the best practices of writing HTML.",
+						text: "HTML 작성의 모범 사례에 대해 알아보십시오.",
 						links: [
 							["MDN - HTML guidelines", "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML"],
 							["W3Schools - HTML Coding Conventions", "https://www.w3schools.com/html/html5_syntax.asp"]
@@ -684,10 +684,10 @@ export const fundamentalsCollection = {
 					description: {
 						text: "Learn what a browser engine is and get an overview of the browser landscape and market share.",
 						links: [
-								["Medium - Browser Engines", "https://medium.com/@jonbiro/browser-engines-chromium-v8-blink-gecko-webkit-98d6b0490968"],
-								["Wikipedia - Comparison", "https://en.wikipedia.org/wiki/Comparison_of_browser_engines"],
-								["HTML5 Rocks - How Browsers Work", "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"],
-								["Demystifying Browsers", "https://textslashplain.com/2020/02/09/demystifying-browsers/"],
+							["Medium - Browser Engines", "https://medium.com/@jonbiro/browser-engines-chromium-v8-blink-gecko-webkit-98d6b0490968"],
+							["Wikipedia - Comparison", "https://en.wikipedia.org/wiki/Comparison_of_browser_engines"],
+							["HTML5 Rocks - How Browsers Work", "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"],
+							["Demystifying Browsers", "https://textslashplain.com/2020/02/09/demystifying-browsers/"],
 						]
 					},
 					skills: [
